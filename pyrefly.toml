@@ -1,0 +1,2 @@
+python-interpreter-path = ".venv/bin/python"
+replace-imports-with-any = ["flask_socketio"]

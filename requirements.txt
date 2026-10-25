@@ -1,0 +1,17 @@
+# ============================================================
+# Advanced NIDS System — Lightweight Heuristic IDS
+# Authors : Yashveer Singh & Atharva Gupta
+# Guide   : Dr. Priya M
+# Review  : 1 — Approved Specification
+# ============================================================
+
+# Core web framework & real-time WebSocket layer
+flask>=2.3.0
+flask-socketio>=5.3.0
+eventlet>=0.33.0          # Async transport for Flask-SocketIO
+
+# Packet capture & crafting engine
+scapy>=2.5.0
+
+# System telemetry (CPU / RAM)
+psutil>=5.9.0
